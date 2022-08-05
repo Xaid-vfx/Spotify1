@@ -1,0 +1,59 @@
+
+.brand img{
+    width: 46px;
+    margin: 4px;
+    padding-right: 5px;
+}
+ .brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size:larger;
+ }
+
+.home{
+    cursor: pointer;
+    background: black;
+    color: white;
+    border: black;
+    padding: 10px;
+}
+.container{
+    color: white;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+}
+
+.bds{
+    background-color: black;
+}
+
+
+.logbutton{
+    position: fixed;
+    right: 6%;
+    display: flex;
+    gap: 20px;
+    margin: 10px;
+}
+.loginbutt{
+    color: white;
+    border: black;
+    padding: 8px 15px;
+    background-color: green;
+    border-radius: 15%;
+
+}
+.mycss {
+            color: green;
+            border: 1px solid #000;
+            background: #ccc;
+            padding: 10px;
+        }
+
+#warningus
+{
+    width: 50%;
+}

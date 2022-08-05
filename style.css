@@ -1,0 +1,247 @@
+body {
+    background-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    min-height: 80%;
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 20px;
+    padding: 30px;
+    background-image: url('bg2.jpg');
+    justify-content: center;
+}
+
+.bottom {
+    background-color: black;
+    position: absolute;
+    height: 150px;
+    bottom: 0;
+    right: 10%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+#progbar {
+    width: 80vw;
+
+}
+
+.icons {
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    display: flex;
+    gap: 15px;
+}
+
+.songitem {
+    display: flex;
+    height: 50px;
+    width: 118%;
+    color: white;
+    right: 0%;
+    justify-content: space-between;
+    margin: 10px 0;
+    border-radius: 34px;
+    align-items: center;
+}
+
+.songitem img {
+    border-radius: 20%;
+    margin: 10px 0;
+    width: 43px;
+}
+
+.timestamp {
+    margin: 10px;
+    right: 0;
+}
+
+.timestamp i {
+    cursor: pointer;
+    padding: 7px;
+}
+
+.sic {
+    margin-top: 40px;
+}
+
+.songinfo {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.songinfo img {
+    opacity: 0;
+    transition: opacity .4s ease-in;
+
+}
+
+.home {
+    cursor: pointer;
+    background: black;
+    color: white;
+    border: black;
+    padding: 10px;
+}
+
+.link {
+    text-decoration: none;
+    text-decoration: none;
+}
+
+.para {
+    color: white;
+    margin: 50px;
+    height: 69%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+}
+
+.gif {
+    left: 0%;
+    position: absolute;
+}
+
+.songName {
+    padding: 7%;
+}
+
+.footer {
+    color: white;
+    bottom: auto;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar {
+    width: 18%;
+    background-color: black;
+    position: fixed;
+    left: 0%;
+    color: white;
+    height: 80%;
+
+}
+
+.rightpane {
+    width: 82%;
+    background-color: #232b2b;
+    position: absolute;
+    right: 0;
+    color: white;
+    height: 80%;
+}
+
+.bigcontainer {
+    display: flex;
+    height: 80%;
+}
+
+
+.sideitems {
+    width: 70%;
+    padding: 2%;
+    display: flex;
+    margin-left: 8%;
+    margin-top: 5%;
+    gap: 8%;
+
+}
+.sideitems3{
+    width: 70%;
+    padding: 2%;
+    display: flex;
+    margin-left: 8%;
+    margin-top: 5%;
+    gap: 8%;
+    bottom: 0;
+    position: absolute;
+    margin-bottom: 5%;
+    justify-content: center;
+
+    align-items: center;
+}
+
+
+.sidebutton {
+    background-color: black;
+    color: white;
+    border: black;
+    cursor: pointer;
+}
+
+.sideitems2 {
+    width: 70%;
+    padding: 2%;
+    display: flex;
+    margin-left: 8%;
+    margin-top: 5%;
+    gap: 5%;align-items: center;
+}
+
+.wellogo {
+    width: 55%;
+    margin: 20px;
+}
+
+.dd {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 2% 3%;
+    display: flex;
+    gap: 25px;
+}
+
+#dropdownMenuButton {
+    border-radius: 20px;
+    background-color: black;
+    border: black;
+    width: 120%;
+}
+
+.bottomcont {
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    height: 100%;
+    color: white;
+}
+
+.careerbtn {
+
+    background-color: black;
+    color: white;
+    border: white;
+    padding: 6.5px 9px;
+    border-radius: 20px;
+    width: 120%;
+    cursor: pointer;
+}
+
+
+.container1{
+    display: flex;
+    justify-content: center;
+}
